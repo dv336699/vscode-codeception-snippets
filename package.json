@@ -4,7 +4,7 @@
     "description": "Snippets to help you writing Codeception tests in Visual Studio Code - based on https://github.com/jadb/atom-codeception-snippets - All credits to Jad Bitar",
     "repository": "https://github.com/diego-vieira/vscode-codeception-snippets",
     "license": "MIT",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "icon": "icon.png",
     "engines": { "vscode": "0.10.x" },
     "categories": ["Snippets"], 
