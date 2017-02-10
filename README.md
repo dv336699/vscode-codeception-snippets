@@ -1,11 +1,6 @@
 # Codeception Snippets
 
-Snippets to help you writing [Codeception](http://codeception.com) tests in [Atom.io](http://atom.io).
-
-## TODO
-
-* REST
-* SOAP
+Snippets to help you writing [Codeception](http://codeception.com) tests in [Visual Studio Code](https://code.visualstudio.com/).
 
 ## Patches & Features
 
@@ -17,7 +12,7 @@ Snippets to help you writing [Codeception](http://codeception.com) tests in [Ato
 
 ## Bugs & Feedback
 
-http://github.com/jadb/atom-codeception-snippets/issues
+https://github.com/diego-vieira/vscode-codeception-snippets/issues
 
 ## License
 
