@@ -786,7 +786,7 @@
 	"executeInSelenium": {
 		"prefix": "executeInSelenium",
 		"body": [
-			"$$I->executeInSelenium(${1:function(\\WebDriver $$webdriver) { $$webdriver->get('${2:url}'); }});${0:}"
+			"$$I->executeInSelenium(${1:function(\\Facebook\\WebDriver\\Remote\\RemoteWebDriver $$webdriver) { $$webdriver->get('${2:url}'); }});${0:}"
 		],
 		"description": "Codeception $I->executeInSelenium"
 	},
