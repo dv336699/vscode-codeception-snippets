@@ -2,1456 +2,1456 @@
 	"deleteHeader": {
 		"prefix": "deleteHeader",
 		"body": [
-			"$$I->deleteHeader('${1:header}');${0:}"
+			"deleteHeader('${1:header}');${0:}"
 		],
 		"description": "Codeception $I->deleteHeader"
 	},
 	"dontSeeHttpHeader": {
 		"prefix": "dontSeeHttpHeader",
 		"body": [
-			"$$I->dontSeeHttpHeader('${1:name}', '${2:value}');${0:}"
+			"dontSeeHttpHeader('${1:name}', '${2:value}');${0:}"
 		],
 		"description": "Codeception $I->dontSeeHttpHeader"
 	},
 	"dontSeeResponseCodeIs": {
 		"prefix": "dontSeeResponseCodeIs",
 		"body": [
-			"$$I->dontSeeResponseCodeIs('${1:code}');${0:}"
+			"dontSeeResponseCodeIs('${1:code}');${0:}"
 		],
 		"description": "Codeception $I->dontSeeResponseCodeIs"
 	},
 	"dontSeeResponseContains": {
 		"prefix": "dontSeeResponseContains",
 		"body": [
-			"$$I->dontSeeResponseContains('${1:text}');${0:}"
+			"dontSeeResponseContains('${1:text}');${0:}"
 		],
 		"description": "Codeception $I->dontSeeResponseContains"
 	},
 	"dontSeeResponseContainsJson": {
 		"prefix": "dontSeeResponseContainsJson",
 		"body": [
-			"$$I->dontSeeResponseContainsJson();${0:}"
+			"dontSeeResponseContainsJson();${0:}"
 		],
 		"description": "Codeception $I->dontSeeResponseContainsJson"
 	},
 	"dontSeeResponseJsonMatchesJsonPath": {
 		"prefix": "dontSeeResponseJsonMatchesJsonPath",
 		"body": [
-			"$$I->dontSeeResponseJsonMatchesJsonPath('${1:jsonPath}');${0:}"
+			"dontSeeResponseJsonMatchesJsonPath('${1:jsonPath}');${0:}"
 		],
 		"description": "Codeception $I->dontSeeResponseJsonMatchesJsonPath"
 	},
 	"dontSeeResponseMatchesJsonType": {
 		"prefix": "dontSeeResponseMatchesJsonType",
 		"body": [
-			"$$I->dontSeeResponseMatchesJsonType('[]');${0:}"
+			"dontSeeResponseMatchesJsonType('[]');${0:}"
 		],
 		"description": "Codeception $I->dontSeeResponseMatchesJsonType"
 	},
 	"dontSeeXmlResponseEquals": {
 		"prefix": "dontSeeXmlResponseEquals",
 		"body": [
-			"$$I->dontSeeXmlResponseEquals('${1:xml}');${0:}"
+			"dontSeeXmlResponseEquals('${1:xml}');${0:}"
 		],
 		"description": "Codeception $I->dontSeeXmlResponseEquals"
 	},
 	"dontSeeXmlResponseIncludes": {
 		"prefix": "dontSeeXmlResponseIncludes",
 		"body": [
-			"$$I->dontSeeXmlResponseIncludes('${1:xml}');${0:}"
+			"dontSeeXmlResponseIncludes('${1:xml}');${0:}"
 		],
 		"description": "Codeception $I->dontSeeXmlResponseIncludes"
 	},
 	"dontSeeXmlResponseMatchesXpath": {
 		"prefix": "dontSeeXmlResponseMatchesXpath",
 		"body": [
-			"$$I->dontSeeXmlResponseMatchesXpath('${1:xpath}');${0:}"
+			"dontSeeXmlResponseMatchesXpath('${1:xpath}');${0:}"
 		],
 		"description": "Codeception $I->dontSeeXmlResponseMatchesXpath"
 	},
 	"grabAttributeFromXmlElement": {
 		"prefix": "grabAttributeFromXmlElement",
 		"body": [
-			"$$I->grabAttributeFromXmlElement('${1:cssOrXPath}', '${2:attribute}');${0:}"
+			"grabAttributeFromXmlElement('${1:cssOrXPath}', '${2:attribute}');${0:}"
 		],
 		"description": "Codeception $I->grabAttributeFromXmlElement"
 	},
 	"grabDataFromResponseByJsonPath": {
 		"prefix": "grabDataFromResponseByJsonPath",
 		"body": [
-			"$$I->grabDataFromResponseByJsonPath('${1:jsonPath}');${0:}"
+			"grabDataFromResponseByJsonPath('${1:jsonPath}');${0:}"
 		],
 		"description": "Codeception $I->grabDataFromResponseByJsonPath"
 	},
 	"grabHttpHeader": {
 		"prefix": "grabHttpHeader",
 		"body": [
-			"$$I->grabHttpHeader('${1:header name}');${0:}"
+			"grabHttpHeader('${1:header name}');${0:}"
 		],
 		"description": "Codeception $I->grabHttpHeader"
 	},
 	"grabResponse": {
 		"prefix": "grabResponse",
 		"body": [
-			"$$I->grabResponse();${0:}"
+			"grabResponse();${0:}"
 		],
 		"description": "Codeception $I->grabResponse"
 	},
 	"grabTextContentFromXmlElement": {
 		"prefix": "grabTextContentFromXmlElement",
 		"body": [
-			"$$I->grabTextContentFromXmlElement('${1:cssOrXPath}');${0:}"
+			"grabTextContentFromXmlElement('${1:cssOrXPath}');${0:}"
 		],
 		"description": "Codeception $I->grabTextContentFromXmlElement"
 	},
 	"seeHttpHeaderOnce": {
 		"prefix": "seeHttpHeaderOnce",
 		"body": [
-			"$$I->seeHttpHeaderOnce('${1:header name}');${0:}"
+			"seeHttpHeaderOnce('${1:header name}');${0:}"
 		],
 		"description": "Codeception $I->seeHttpHeaderOnce"
 	},
 	"seeResponseContains": {
 		"prefix": "seeResponseContains",
 		"body": [
-			"$$I->seeResponseContains('${1:text}');${0:}"
+			"seeResponseContains('${1:text}');${0:}"
 		],
 		"description": "Codeception $I->seeResponseContains"
 	},
 	"seeResponseContainsJson": {
 		"prefix": "seeResponseContainsJson",
 		"body": [
-			"$$I->seeResponseContainsJson(array('${1:key}' => '${2:value}'));${0:}"
+			"seeResponseContainsJson(array('${1:key}' => '${2:value}'));${0:}"
 		],
 		"description": "Codeception $I->seeResponseContainsJson"
 	},
 	"seeResponseEquals": {
 		"prefix": "seeResponseEquals",
 		"body": [
-			"$$I->seeResponseEquals('${1:expected response}');${0:}"
+			"seeResponseEquals('${1:expected response}');${0:}"
 		],
 		"description": "Codeception $I->seeResponseEquals"
 	},
 	"seeResponseIsJson": {
 		"prefix": "seeResponseIsJson",
 		"body": [
-			"$$I->seeResponseIsJson();${0:}"
+			"seeResponseIsJson();${0:}"
 		],
 		"description": "Codeception $I->seeResponseIsJson"
 	},
 	"seeResponseIsXml": {
 		"prefix": "seeResponseIsXml",
 		"body": [
-			"$$I->seeResponseIsXml();${0:}"
+			"seeResponseIsXml();${0:}"
 		],
 		"description": "Codeception $I->seeResponseIsXml"
 	},
 	"seeResponseJsonMatchesXpath": {
 		"prefix": "seeResponseJsonMatchesXpath",
 		"body": [
-			"$$I->seeResponseJsonMatchesXpath('${1:xpath}');${0:}"
+			"seeResponseJsonMatchesXpath('${1:xpath}');${0:}"
 		],
 		"description": "Codeception $I->seeResponseJsonMatchesXpath"
 	},
 	"seeXmlResponseEquals": {
 		"prefix": "seeXmlResponseEquals",
 		"body": [
-			"$$I->seeXmlResponseEquals('${1:xml}');${0:}"
+			"seeXmlResponseEquals('${1:xml}');${0:}"
 		],
 		"description": "Codeception $I->seeXmlResponseEquals"
 	},
 	"seeXmlResponseIncludes": {
 		"prefix": "seeXmlResponseIncludes",
 		"body": [
-			"$$I->seeXmlResponseIncludes('${1:xpath}');${0:}"
+			"seeXmlResponseIncludes('${1:xpath}');${0:}"
 		],
 		"description": "Codeception $I->seeXmlResponseIncludes"
 	},
 	"sendDELETE": {
 		"prefix": "sendDELETE",
 		"body": [
-			"$$I->sendDELETE('${1:url}', '${2:params}', '${2:files}');${0:}"
+			"sendDELETE('${1:url}', '${2:params}', '${2:files}');${0:}"
 		],
 		"description": "Codeception $I->sendDELETE"
 	},
 	"sendGET": {
 		"prefix": "sendGET",
 		"body": [
-			"$$I->sendGET('${1:url}', '${2:params}');${0:}"
+			"sendGET('${1:url}', '${2:params}');${0:}"
 		],
 		"description": "Codeception $I->sendGET"
 	},
 	"sendHEAD": {
 		"prefix": "sendHEAD",
 		"body": [
-			"$$I->sendHEAD('${1:url}', '${2:params}');${0:}"
+			"sendHEAD('${1:url}', '${2:params}');${0:}"
 		],
 		"description": "Codeception $I->sendHEAD"
 	},
 	"sendLINK": {
 		"prefix": "sendLINK",
 		"body": [
-			"$$I->sendLINK('${1:url}', '${2:link}');${0:}"
+			"sendLINK('${1:url}', '${2:link}');${0:}"
 		],
 		"description": "Codeception $I->sendLINK"
 	},
 	"sendOPTIONS": {
 		"prefix": "sendOPTIONS",
 		"body": [
-			"$$I->sendOPTIONS('${1:url}', '${2:params}');${0:}"
+			"sendOPTIONS('${1:url}', '${2:params}');${0:}"
 		],
 		"description": "Codeception $I->sendOPTIONS"
 	},
 	"sendPATCH": {
 		"prefix": "sendPATCH",
 		"body": [
-			"$$I->sendPATCH('${1:url}', '${2:params}', '${2:files}');${0:}"
+			"sendPATCH('${1:url}', '${2:params}', '${2:files}');${0:}"
 		],
 		"description": "Codeception $I->sendPATCH"
 	},
 	"sendPOST": {
 		"prefix": "sendPOST",
 		"body": [
-			"$$I->sendPOST('${1:url}', '${2:params}', '${2:files}');${0:}"
+			"sendPOST('${1:url}', '${2:params}', '${2:files}');${0:}"
 		],
 		"description": "Codeception $I->sendPOST"
 	},
 	"sendPUT": {
 		"prefix": "sendPUT",
 		"body": [
-			"$$I->sendPUT('${1:url}', '${2:params}', '${2:files}');${0:}"
+			"sendPUT('${1:url}', '${2:params}', '${2:files}');${0:}"
 		],
 		"description": "Codeception $I->sendPUT"
 	},
 	"sendUNLINK": {
 		"prefix": "sendUNLINK",
 		"body": [
-			"$$I->sendUNLINK('${1:url}', '${2:link}');${0:}"
+			"sendUNLINK('${1:url}', '${2:link}');${0:}"
 		],
 		"description": "Codeception $I->sendUNLINK"
 	},
 	"startFollowingRedirects": {
 		"prefix": "startFollowingRedirects",
 		"body": [
-			"$$I->startFollowingRedirects();${0:}"
+			"startFollowingRedirects();${0:}"
 		],
 		"description": "Codeception $I->startFollowingRedirects"
 	},
 	"stopFollowingRedirects": {
 		"prefix": "stopFollowingRedirects",
 		"body": [
-			"$$I->stopFollowingRedirects();${0:}"
+			"stopFollowingRedirects();${0:}"
 		],
 		"description": "Codeception $I->stopFollowingRedirects"
 	},
 	"seeResponseJsonMatchesJsonPath": {
 		"prefix": "seeResponseJsonMatchesJsonPath",
 		"body": [
-			"$$I->seeResponseJsonMatchesJsonPath('');${0:}"
+			"seeResponseJsonMatchesJsonPath('');${0:}"
 		],
 		"description": "Codeception $I->seeResponseJsonMatchesJsonPath"
 	},
 	"assertArrayHasKey": {
 		"prefix": "assertArrayHasKey",
 		"body": [
-			"$$I->assertArrayHasKey('${1:key}', '${2:actual}', '${3:description}');${0:}"
+			"assertArrayHasKey('${1:key}', '${2:actual}', '${3:description}');${0:}"
 		],
 		"description": "Codeception $I->assertArrayHasKey"
 	},
 	"assertArrayNotHasKey": {
 		"prefix": "assertArrayNotHasKey",
 		"body": [
-			"$$I->assertArrayNotHasKey('${1:key}', '${2:actual}', '${3:description}');${0:}"
+			"assertArrayNotHasKey('${1:key}', '${2:actual}', '${3:description}');${0:}"
 		],
 		"description": "Codeception $I->assertArrayNotHasKey"
 	},
 	"assertContains": {
 		"prefix": "assertContains",
 		"body": [
-			"$$I->assertContains('${1:needle}', '${2:haystack}', '${3:message}');${0:}"
+			"assertContains('${1:needle}', '${2:haystack}', '${3:message}');${0:}"
 		],
 		"description": "Codeception $I->assertContains"
 	},
 	"assertEmpty": {
 		"prefix": "assertContains",
 		"body": [
-			"$$I->assertContains('${1:actual}', '${2:message}');${0:}"
+			"assertContains('${1:actual}', '${2:message}');${0:}"
 		],
 		"description": "Codeception $I->assertEmpty"
 	},
 	"assertEquals": {
 		"prefix": "assertEquals",
 		"body": [
-			"$$I->assertEquals('${1:expected}', '${2:actual}', '${3:message}');${0:}"
+			"assertEquals('${1:expected}', '${2:actual}', '${3:message}');${0:}"
 		],
 		"description": "Codeception $I->assertEquals"
 	},
 	"assertFalse": {
 		"prefix": "assertFalse",
 		"body": [
-			"$$I->assertFalse('${1:condition}', '${2:message}');${0:}"
+			"assertFalse('${1:condition}', '${2:message}');${0:}"
 		],
 		"description": "Codeception $I->assertFalse"
 	},
 	"assertFileExists": {
 		"prefix": "assertFileExists",
 		"body": [
-			"$$I->assertFileExists('${1:filename}', '${2:message}');${0:}"
+			"assertFileExists('${1:filename}', '${2:message}');${0:}"
 		],
 		"description": "Codeception $I->assertFileExists"
 	},
 	"assertFileNotExists": {
 		"prefix": "assertFileNotExists",
 		"body": [
-			"$$I->assertFileNotExists('${1:filename}', '${2:message}');${0:}"
+			"assertFileNotExists('${1:filename}', '${2:message}');${0:}"
 		],
 		"description": "Codeception $I->assertFileNotExists"
 	},
 	"assertGreaterOrEquals": {
 		"prefix": "assertGreaterOrEquals",
 		"body": [
-			"$$I->assertGreaterOrEquals('${1:expected}', '${2:actual}', '${3:description}');${0:}"
+			"assertGreaterOrEquals('${1:expected}', '${2:actual}', '${3:description}');${0:}"
 		],
 		"description": "Codeception $I->assertGreaterOrEquals"
 	},
 	"assertGreaterThan": {
 		"prefix": "assertGreaterThan",
 		"body": [
-			"$$I->assertGreaterThan('${1:expected}', '${2:actual}', '${3:description}');${0:}"
+			"assertGreaterThan('${1:expected}', '${2:actual}', '${3:description}');${0:}"
 		],
 		"description": "Codeception $I->assertGreaterThan"
 	},
 	"assertGreaterThanOrEqual": {
 		"prefix": "assertGreaterThanOrEqual",
 		"body": [
-			"$$I->assertGreaterThanOrEqual('${1:expected}', '${2:actual}', '${3:description}');${0:}"
+			"assertGreaterThanOrEqual('${1:expected}', '${2:actual}', '${3:description}');${0:}"
 		],
 		"description": "Codeception $I->assertGreaterThanOrEqual"
 	},
 	"assertInstanceOf": {
 		"prefix": "assertInstanceOf",
 		"body": [
-			"$$I->assertInstanceOf('${1:class}', '${2:actual}', '${3:description}');${0:}"
+			"assertInstanceOf('${1:class}', '${2:actual}', '${3:description}');${0:}"
 		],
 		"description": "Codeception $I->assertInstanceOf"
 	},
 	"assertInternalType": {
 		"prefix": "assertInternalType",
 		"body": [
-			"$$I->assertInternalType('${1:assertInternalType}', '${2:actual}', '${3:description}');${0:}"
+			"assertInternalType('${1:assertInternalType}', '${2:actual}', '${3:description}');${0:}"
 		],
 		"description": "Codeception $I->assertInternalType"
 	},
 	"assertIsEmpty": {
 		"prefix": "assertIsEmpty",
 		"body": [
-			"$$I->assertIsEmpty('${1:actual}', '${2:description}');${0:}"
+			"assertIsEmpty('${1:actual}', '${2:description}');${0:}"
 		],
 		"description": "Codeception $I->assertIsEmpty"
 	},
 	"assertLessOrEquals": {
 		"prefix": "assertLessOrEquals",
 		"body": [
-			"$$I->assertLessOrEquals('${1:expected}', '${2:actual}', '${2:description}');${0:}"
+			"assertLessOrEquals('${1:expected}', '${2:actual}', '${2:description}');${0:}"
 		],
 		"description": "Codeception $I->assertLessOrEquals"
 	},
 	"assertLessThan": {
 		"prefix": "assertLessThan",
 		"body": [
-			"$$I->assertLessThan('${1:expected}', '${2:actual}', '${3:description}');${0:}"
+			"assertLessThan('${1:expected}', '${2:actual}', '${3:description}');${0:}"
 		],
 		"description": "Codeception $I->assertLessThan"
 	},
 	"assertLessThanOrEqual": {
 		"prefix": "assertLessThanOrEqual",
 		"body": [
-			"$$I->assertLessThanOrEqual('${1:expected}', '${2:actual}', '${3:description}');${0:}"
+			"assertLessThanOrEqual('${1:expected}', '${2:actual}', '${3:description}');${0:}"
 		],
 		"description": "Codeception $I->assertLessThanOrEqual"
 	},
 	"assertNotContains": {
 		"prefix": "assertNotContains",
 		"body": [
-			"$$I->assertNotContains('${1:needle}', '${2:haystack}', '${3:description}');${0:}"
+			"assertNotContains('${1:needle}', '${2:haystack}', '${3:description}');${0:}"
 		],
 		"description": "Codeception $I->assertNotContains"
 	},
 	"assertNotEmpty": {
 		"prefix": "assertNotEmpty",
 		"body": [
-			"$$I->assertNotEmpty('${1:actual}', '${2:message}');${0:}"
+			"assertNotEmpty('${1:actual}', '${2:message}');${0:}"
 		],
 		"description": "Codeception $I->assertNotEmpty"
 	},
 	"assertNotEquals": {
 		"prefix": "assertNotEquals",
 		"body": [
-			"$$I->assertNotEquals('${1:expected}', '${2:actual}', '${3:message}');${0:}"
+			"assertNotEquals('${1:expected}', '${2:actual}', '${3:message}');${0:}"
 		],
 		"description": "Codeception $I->assertNotEquals"
 	},
 	"assertNotInstanceOf": {
 		"prefix": "assertNotInstanceOf",
 		"body": [
-			"$$I->assertNotInstanceOf('${1:class}', '${2:actual}', '${3:description}');${0:}"
+			"assertNotInstanceOf('${1:class}', '${2:actual}', '${3:description}');${0:}"
 		],
 		"description": "Codeception $I->assertNotInstanceOf"
 	},
 	"assertNotNull": {
 		"prefix": "assertNotNull",
 		"body": [
-			"$$I->assertNotNull('${1:actual}', '${2:message}');${0:}"
+			"assertNotNull('${1:actual}', '${2:message}');${0:}"
 		],
 		"description": "Codeception $I->assertNotNull"
 	},
 	"assertNotRegExp": {
 		"prefix": "assertNotRegExp",
 		"body": [
-			"$$I->assertNotRegExp('${1:pattern}', '${2:string}', '${3:message}');${0:}"
+			"assertNotRegExp('${1:pattern}', '${2:string}', '${3:message}');${0:}"
 		],
 		"description": "Codeception $I->assertNotRegExp"
 	},
 	"assertNotSame": {
 		"prefix": "assertNotSame",
 		"body": [
-			"$$I->assertNotSame('${1:assertNotSame}', '${2:actual}', '${3:message}');${0:}"
+			"assertNotSame('${1:assertNotSame}', '${2:actual}', '${3:message}');${0:}"
 		],
 		"description": "Codeception $I->assertNotSame"
 	},
 	"assertNull": {
 		"prefix": "assertNull",
 		"body": [
-			"$$I->assertNull('${1:actual}', '${2:message}');${0:}"
+			"assertNull('${1:actual}', '${2:message}');${0:}"
 		],
 		"description": "Codeception $I->assertNull"
 	},
 	"assertRegExp": {
 		"prefix": "assertRegExp",
 		"body": [
-			"$$I->assertRegExp('${1:pattern}', '${2:string}', '${3:message}');${0:}"
+			"assertRegExp('${1:pattern}', '${2:string}', '${3:message}');${0:}"
 		],
 		"description": "Codeception $I->assertRegExp"
 	},
 	"assertSame": {
 		"prefix": "assertSame",
 		"body": [
-			"$$I->assertSame('${1:expected}', '${2:actual}', '${3:message}');${0:}"
+			"assertSame('${1:expected}', '${2:actual}', '${3:message}');${0:}"
 		],
 		"description": "Codeception $I->assertSame"
 	},
 	"assertTrue": {
 		"prefix": "assertTrue",
 		"body": [
-			"$$I->assertTrue('${1:condition}', '${2:message}');${0:}"
+			"assertTrue('${1:condition}', '${2:message}');${0:}"
 		],
 		"description": "Codeception $I->assertTrue"
 	},
 	"fail": {
 		"prefix": "fail",
 		"body": [
-			"$$I->fail('${1:message}');${0:}"
+			"fail('${1:message}');${0:}"
 		],
 		"description": "Codeception $I->fail"
 	},
 	"seeResponseMatchesJsonType": {
 		"prefix": "seeResponseMatchesJsonType",
 		"body": [
-			"$$I->seeResponseMatchesJsonType('[]');${0:}"
+			"seeResponseMatchesJsonType('[]');${0:}"
 		],
 		"description": "Codeception $I->seeResponseMatchesJsonType"
 	},
 	"acceptPopup": {
 		"prefix": "acceptPopup",
 		"body": [
-			"$$I->acceptPopup();${0:}"
+			"acceptPopup();${0:}"
 		],
 		"description": "Codeception $I->acceptPopup"
 	},
 	"amHttpAuthenticated": {
 		"prefix": "amHttpAuthenticated",
 		"body": [
-			"$$I->amHttpAuthenticated('${1:username}', '${2:password}');${0:}"
+			"amHttpAuthenticated('${1:username}', '${2:password}');${0:}"
 		],
 		"description": "Codeception $I->amHttpAuthenticated"
 	},
 	"amLoggedAs": {
 		"prefix": "amLoggedAs",
 		"body": [
-			"$$I->amLoggedAs(${1:$$user}, ${2:$$driver});${0:}"
+			"amLoggedAs(${1:$$user}, ${2:$$driver});${0:}"
 		],
 		"description": "Codeception $I->amLoggedAs"
 	},
 	"amGoingTo": {
 		"prefix": "amGoingTo",
 		"body": [
-			"$$I->amGoingTo('');${0:}"
+			"amGoingTo('');${0:}"
 		],
 		"description": "Codeception $I->amGoingTo"
 	},
 	"amInPath": {
 		"prefix": "amInPath",
 		"body": [
-			"$$I->amInPath('${1:path}');${0:}"
+			"amInPath('${1:path}');${0:}"
 		],
 		"description": "Codeception $I->amInPath"
 	},
 	"amOnPage": {
 		"prefix": "amOnPage",
 		"body": [
-			"$$I->amOnPage('${1:path}');${0:}"
+			"amOnPage('${1:path}');${0:}"
 		],
 		"description": "Codeception $I->amOnPage"
 	},
 	"amOnSubdomain": {
 		"prefix": "amOnSubdomain",
 		"body": [
-			"$$I->amOnSubdomain('${1:subdomain}');${0:}"
+			"amOnSubdomain('${1:subdomain}');${0:}"
 		],
 		"description": "Codeception $I->amOnSubdomain"
 	},
 	"appendField": {
 		"prefix": "appendField",
 		"body": [
-			"$$I->appendField('${1:field}', '${2:value}');${0:}"
+			"appendField('${1:field}', '${2:value}');${0:}"
 		],
 		"description": "Codeception $I->appendField"
 	},
 	"attachFile": {
 		"prefix": "attachFile",
 		"body": [
-			"$$I->attachFile('${1:field}', '${2:filename}');${0:}"
+			"attachFile('${1:field}', '${2:filename}');${0:}"
 		],
 		"description": "Codeception $I->attachFile"
 	},
 	"blur": {
 		"prefix": "blur",
 		"body": [
-			"$$I->blur('${1:selector}');${0:}"
+			"blur('${1:selector}');${0:}"
 		],
 		"description": "Codeception $I->blur"
 	},
 	"cancelPopup": {
 		"prefix": "cancelPopup",
 		"body": [
-			"$$I->cancelPopup();${0:}"
+			"cancelPopup();${0:}"
 		],
 		"description": "Codeception $I->cancelPopup"
 	},
 	"checkOption": {
 		"prefix": "checkOption",
 		"body": [
-			"$$I->checkOption('${1:option}');${0:}"
+			"checkOption('${1:option}');${0:}"
 		],
 		"description": "Codeception $I->checkOption"
 	},
 	"cleanDir": {
 		"prefix": "cleanDir",
 		"body": [
-			"$$I->cleanDir('${1:dirname}');${0:}"
+			"cleanDir('${1:dirname}');${0:}"
 		],
 		"description": "Codeception $I->cleanDir"
 	},
 	"cleanupRedis": {
 		"prefix": "cleanupRedis",
 		"body": [
-			"$$I->cleanupRedis();${0:}"
+			"cleanupRedis();${0:}"
 		],
 		"description": "Codeception $I->cleanupRedis"
 	},
 	"clearMemcache": {
 		"prefix": "clearMemcache",
 		"body": [
-			"$$I->clearMemcache();${0:}"
+			"clearMemcache();${0:}"
 		],
 		"description": "Codeception $I->clearMemcache"
 	},
 	"click": {
 		"prefix": "click",
 		"body": [
-			"$$I->click('${1:selector}');${0:}"
+			"click('${1:selector}');${0:}"
 		],
 		"description": "Codeception $I->click"
 	},
 	"clickWithRightButton": {
 		"prefix": "clickWithRightButton",
 		"body": [
-			"$$I->clickWithRightButton('${1:selector}');${0:}"
+			"clickWithRightButton('${1:selector}');${0:}"
 		],
 		"description": "Codeception $I->clickWithRightButton"
 	},
 	"copyDir": {
 		"prefix": "copyDir",
 		"body": [
-			"$$I->copyDir('${1:src}', '${2:dst}');${0:}"
+			"copyDir('${1:src}', '${2:dst}');${0:}"
 		],
 		"description": "Codeception $I->copyDir"
 	},
 	"comment": {
 		"prefix": "comment",
 		"body": [
-			"$$I->comment('');${0:}"
+			"comment('');${0:}"
 		],
 		"description": "Codeception $I->comment"
 	},
 	"wantToTest": {
 		"prefix": "wantToTest",
 		"body": [
-			"$$I->wantToTest('');${0:}"
+			"wantToTest('');${0:}"
 		],
 		"description": "Codeception $I->wantToTest"
 	},
 	"PickFromList": {
 		"prefix": "PickFromList",
 		"body": [
-			"$$I->PickFromList('${1:value}');${0:}"
+			"PickFromList('${1:value}');${0:}"
 		],
 		"description": "Codeception $I->PickFromList"
 	},
 	"deleteDir": {
 		"prefix": "deleteDir",
 		"body": [
-			"$$I->deleteDir('${1:dirname}');${0:}"
+			"deleteDir('${1:dirname}');${0:}"
 		],
 		"description": "Codeception $I->deleteDir"
 	},
 	"deleteFile": {
 		"prefix": "deleteFile",
 		"body": [
-			"$$I->deleteFile('${1:filename}');${0:}"
+			"deleteFile('${1:filename}');${0:}"
 		],
 		"description": "Codeception $I->deleteFile"
 	},
 	"deleteThisFile": {
 		"prefix": "deleteThisFile",
 		"body": [
-			"$$I->deleteThisFile();${0:}"
+			"deleteThisFile();${0:}"
 		],
 		"description": "Codeception $I->deleteThisFile"
 	},
 	"dontSee": {
 		"prefix": "dontSee",
 		"body": [
-			"$$I->dontSee('${1:text}', '${2:selector}');${0:}"
+			"dontSee('${1:text}', '${2:selector}');${0:}"
 		],
 		"description": "Codeception $I->dontSee"
 	},
 	"dontSeeCheckboxIsChecked": {
 		"prefix": "dontSeeCheckboxIsChecked",
 		"body": [
-			"$$I->dontSeeCheckboxIsChecked('${1:checkboxOrSelector}');${0:}"
+			"dontSeeCheckboxIsChecked('${1:checkboxOrSelector}');${0:}"
 		],
 		"description": "Codeception $I->dontSeeCheckboxIsChecked"
 	},
 	"dontSeeCookie": {
 		"prefix": "dontSeeCookie",
 		"body": [
-			"$$I->dontSeeCookie('${1:cookie}');${0:}"
+			"dontSeeCookie('${1:cookie}');${0:}"
 		],
 		"description": "Codeception $I->dontSeeCookie"
 	},
 	"dontSeeCurrentUrlEquals": {
 		"prefix": "dontSeeCurrentUrlEquals",
 		"body": [
-			"$$I->dontSeeCurrentUrlEquals('${1:uri}');${0:}"
+			"dontSeeCurrentUrlEquals('${1:uri}');${0:}"
 		],
 		"description": "Codeception $I->dontSeeCurrentUrlEquals"
 	},
 	"dontSeeCurrentUrlMatches": {
 		"prefix": "dontSeeCurrentUrlMatches",
 		"body": [
-			"$$I->dontSeeCurrentUrlMatches('${1:regex}');${0:}"
+			"dontSeeCurrentUrlMatches('${1:regex}');${0:}"
 		],
 		"description": "Codeception $I->dontSeeCurrentUrlMatches"
 	},
 	"dontSeeElement": {
 		"prefix": "dontSeeElement",
 		"body": [
-			"$$I->dontSeeElement('${1:selector}');${0:}"
+			"dontSeeElement('${1:selector}');${0:}"
 		],
 		"description": "Codeception $I->dontSeeElement"
 	},
 	"dontSeeElementInDOM": {
 		"prefix": "dontSeeElementInDOM",
 		"body": [
-			"$$I->dontSeeElementInDOM('${1:selector}');${0:}"
+			"dontSeeElementInDOM('${1:selector}');${0:}"
 		],
 		"description": "Codeception $I->dontSeeElementInDOM"
 	},
 	"dontSeeInCollection": {
 		"prefix": "dontSeeInCollection",
 		"body": [
-			"$$I->dontSeeInCollection('${1:collection}', ${2:$$criteria});${0:}"
+			"dontSeeInCollection('${1:collection}', ${2:$$criteria});${0:}"
 		],
 		"description": "Codeception $I->dontSeeInCollection"
 	},
 	"dontSeeInCurrentUrl": {
 		"prefix": "dontSeeInCurrentUrl",
 		"body": [
-			"$$I->dontSeeInCurrentUrl('${1:uri}');${0:}"
+			"dontSeeInCurrentUrl('${1:uri}');${0:}"
 		],
 		"description": "Codeception $I->dontSeeInCurrentUrl"
 	},
 	"dontSeeInDatabase": {
 		"prefix": "dontSeeInDatabase",
 		"body": [
-			"$$I->dontSeeInDatabase('${1:table}', ${2:$$criteria});${0:}"
+			"dontSeeInDatabase('${1:table}', ${2:$$criteria});${0:}"
 		],
 		"description": "Codeception $I->dontSeeInDatabase"
 	},
 	"dontSeeInField": {
 		"prefix": "dontSeeInField",
 		"body": [
-			"$$I->dontSeeInField('${1:field}', '${2:value}');${0:}"
+			"dontSeeInField('${1:field}', '${2:value}');${0:}"
 		],
 		"description": "Codeception $I->dontSeeInField"
 	},
 	"dontSeeInMemcached": {
 		"prefix": "dontSeeInMemcached",
 		"body": [
-			"$$I->dontSeeInMemcached('${1:key}', '${2:value}');${0:}"
+			"dontSeeInMemcached('${1:key}', '${2:value}');${0:}"
 		],
 		"description": "Codeception $I->dontSeeInMemcached"
 	},
 	"dontSeeInRepository": {
 		"prefix": "dontSeeInRepository",
 		"body": [
-			"$$I->dontSeeInRepository('${1:entity}', ${2:$$params});${0:}"
+			"dontSeeInRepository('${1:entity}', ${2:$$params});${0:}"
 		],
 		"description": "Codeception $I->dontSeeInRepository"
 	},
 	"dontSeeInShellOutput": {
 		"prefix": "dontSeeInShellOutput",
 		"body": [
-			"$$I->dontSeeInShellOutput('${1:text}');${0:}"
+			"dontSeeInShellOutput('${1:text}');${0:}"
 		],
 		"description": "Codeception $I->dontSeeInShellOutput"
 	},
 	"dontSeeInTable": {
 		"prefix": "dontSeeInTable",
 		"body": [
-			"$$I->dontSeeInTable('${1:model}', ${2:$$values});${0:}"
+			"dontSeeInTable('${1:model}', ${2:$$values});${0:}"
 		],
 		"description": "Codeception $I->dontSeeInTable"
 	},
 	"dontSeeInThisFile": {
 		"prefix": "dontSeeInThisFile",
 		"body": [
-			"$$I->dontSeeInThisFile('${1:text}');${0:}"
+			"dontSeeInThisFile('${1:text}');${0:}"
 		],
 		"description": "Codeception $I->dontSeeInThisFile"
 	},
 	"dontSeeInTitle": {
 		"prefix": "dontSeeInTitle",
 		"body": [
-			"$$I->dontSeeInTitle('${1:title}');${0:}"
+			"dontSeeInTitle('${1:title}');${0:}"
 		],
 		"description": "Codeception $I->dontSeeInTitle"
 	},
 	"dontSeeLink": {
 		"prefix": "dontSeeLink",
 		"body": [
-			"$$I->dontSeeLink('${1:text}'${2:, '${3:url}'});${0:}"
+			"dontSeeLink('${1:text}'${2:, '${3:url}'});${0:}"
 		],
 		"description": "Codeception $I->dontSeeLink"
 	},
 	"dontSeeOptionIsSelected": {
 		"prefix": "dontSeeOptionIsSelected",
 		"body": [
-			"$$I->dontSeeOptionIsSelected('${1:selector}'${2:, '${3:optionText}'});${0:}"
+			"dontSeeOptionIsSelected('${1:selector}'${2:, '${3:optionText}'});${0:}"
 		],
 		"description": "Codeception $I->dontSeeOptionIsSelected"
 	},
 	"doubleClick": {
 		"prefix": "doubleClick",
 		"body": [
-			"$$I->doubleClick('${1:cssOrXPath}');${0:}"
+			"doubleClick('${1:cssOrXPath}');${0:}"
 		],
 		"description": "Codeception $I->doubleClick"
 	},
 	"dragAndDrop": {
 		"prefix": "dragAndDrop",
 		"body": [
-			"$$I->dragAndDrop('${1:sourceXPathOrID}', '${2:targetXPathOrID}');${0:}"
+			"dragAndDrop('${1:sourceXPathOrID}', '${2:targetXPathOrID}');${0:}"
 		],
 		"description": "Codeception $I->dragAndDrop"
 	},
 	"executeInGuzzle": {
 		"prefix": "executeInGuzzle",
 		"body": [
-			"$$I->executeInGuzzle(${1:$$callback});${0:}"
+			"executeInGuzzle(${1:$$callback});${0:}"
 		],
 		"description": "Codeception $I->executeInGuzzle"
 	},
 	"executeInSelenium": {
 		"prefix": "executeInSelenium",
 		"body": [
-			"$$I->executeInSelenium(${1:function(\\Facebook\\WebDriver\\Remote\\RemoteWebDriver $$webdriver) { $$webdriver->get('${2:url}'); }});${0:}"
+			"executeInSelenium(${1:function(\\Facebook\\WebDriver\\Remote\\RemoteWebDriver $$webdriver) { $$webdriver->get('${2:url}'); }});${0:}"
 		],
 		"description": "Codeception $I->executeInSelenium"
 	},
 	"executeJS": {
 		"prefix": "executeJS",
 		"body": [
-			"$$I->executeJS('${1:script}');${0:}"
+			"executeJS('${1:script}');${0:}"
 		],
 		"description": "Codeception $I->executeJS"
 	},
 	"fillField": {
 		"prefix": "fillField",
 		"body": [
-			"$$I->fillField('${1:selector}', '${2:value}');${0:}"
+			"fillField('${1:selector}', '${2:value}');${0:}"
 		],
 		"description": "Codeception $I->fillField"
 	},
 	"flushToDatabase": {
 		"prefix": "flushToDatabase",
 		"body": [
-			"$$I->flushToDatabase();${0:}"
+			"flushToDatabase();${0:}"
 		],
 		"description": "Codeception $I->flushToDatabase"
 	},
 	"focus": {
 		"prefix": "focus",
 		"body": [
-			"$$I->focus('${1:selector}');${0:}"
+			"focus('${1:selector}');${0:}"
 		],
 		"description": "Codeception $I->focus"
 	},
 	"getName": {
 		"prefix": "getName",
 		"body": [
-			"$$I->getName(${1:});${0:}"
+			"getName(${1:});${0:}"
 		],
 		"description": "Codeception $I->getName"
 	},
 	"grabCookie": {
 		"prefix": "grabCookie",
 		"body": [
-			"$$I->grabCookie('${1:cookie}');${0:}"
+			"grabCookie('${1:cookie}');${0:}"
 		],
 		"description": "Codeception $I->grabCookie"
 	},
 	"grabFacebookTestUserAccessToken": {
 		"prefix": "grabFacebookTestUserAccessToken",
 		"body": [
-			"$$I->grabFacebookTestUserAccessToken();${0:}"
+			"grabFacebookTestUserAccessToken();${0:}"
 		],
 		"description": "Codeception $I->grabFacebookTestUserAccessToken"
 	},
 	"grabFacebookTestUserEmail": {
 		"prefix": "grabFacebookTestUserEmail",
 		"body": [
-			"$$I->grabFacebookTestUserEmail();${0:}"
+			"grabFacebookTestUserEmail();${0:}"
 		],
 		"description": "Codeception $I->grabFacebookTestUserEmail"
 	},
 	"grabFacebookTestUserFirstName": {
 		"prefix": "grabFacebookTestUserFirstName",
 		"body": [
-			"$$I->grabFacebookTestUserFirstName();${0:}"
+			"grabFacebookTestUserFirstName();${0:}"
 		],
 		"description": "Codeception $I->grabFacebookTestUserFirstName"
 	},
 	"grabFacebookTestUserLoginUrl": {
 		"prefix": "grabFacebookTestUserLoginUrl",
 		"body": [
-			"$$I->grabFacebookTestUserLoginUrl();${0:}"
+			"grabFacebookTestUserLoginUrl();${0:}"
 		],
 		"description": "Codeception $I->grabFacebookTestUserLoginUrl"
 	},
 	"grabFromCollection": {
 		"prefix": "grabFromCollection",
 		"body": [
-			"$$I->grabFromCollection('${1:collection}', ${2:$$criteria});${0:}"
+			"grabFromCollection('${1:collection}', ${2:$$criteria});${0:}"
 		],
 		"description": "Codeception $I->grabFromCollection"
 	},
 	"grabFromCurrentUrl": {
 		"prefix": "grabFromCurrentUrl",
 		"body": [
-			"$$I->grabFromCurrentUrl(${1:'uri'}${2:, '${3:url}'});${0:}"
+			"grabFromCurrentUrl(${1:'uri'}${2:, '${3:url}'});${0:}"
 		],
 		"description": "Codeception $I->grabFromCurrentUrl"
 	},
 	"grabFromDatabase": {
 		"prefix": "grabFromDatabase",
 		"body": [
-			"$$I->grabFromDatabase('${1:table}', '${2:column}', ${3:$$criteria});${0:}"
+			"grabFromDatabase('${1:table}', '${2:column}', ${3:$$criteria});${0:}"
 		],
 		"description": "Codeception $I->grabFromDatabase"
 	},
 	"grabFromRepository": {
 		"prefix": "grabFromRepository",
 		"body": [
-			"$$I->grabFromRepository('${1:entity}', '${2:field}', ${3:$$params});${0:}"
+			"grabFromRepository('${1:entity}', '${2:field}', ${3:$$params});${0:}"
 		],
 		"description": "Codeception $I->grabFromRepository"
 	},
 	"grabFromTable": {
 		"prefix": "grabFromTable",
 		"body": [
-			"$$I->grabFromTable('${1:model}', '${2:column}', ${3:$$values});${0:}"
+			"grabFromTable('${1:model}', '${2:column}', ${3:$$values});${0:}"
 		],
 		"description": "Codeception $I->grabFromTable"
 	},
 	"grabMessageFromQueue": {
 		"prefix": "grabMessageFromQueue",
 		"body": [
-			"$$I->grabMessageFromQueue('${1:queue}');${0:}"
+			"grabMessageFromQueue('${1:queue}');${0:}"
 		],
 		"description": "Codeception $I->grabMessageFromQueue"
 	},
 	"grabRecord": {
 		"prefix": "grabRecord",
 		"body": [
-			"$$I->grabRecord('${1:model}', ${2:$$attributes});${0:}"
+			"grabRecord('${1:model}', ${2:$$attributes});${0:}"
 		],
 		"description": "Codeception $I->grabRecord"
 	},
 	"grabServiceFromContainer": {
 		"prefix": "grabServiceFromContainer",
 		"body": [
-			"$$I->grabServiceFromContainer('${1:service}');${0:}"
+			"grabServiceFromContainer('${1:service}');${0:}"
 		],
 		"description": "Codeception $I->grabServiceFromContainer"
 	},
 	"grabTextFrom": {
 		"prefix": "grabTextFrom",
 		"body": [
-			"$$I->grabTextFrom('${1:cssOrXPathOrRegex}');${0:}"
+			"grabTextFrom('${1:cssOrXPathOrRegex}');${0:}"
 		],
 		"description": "Codeception $I->grabTextFrom"
 	},
 	"grabValueFrom": {
 		"prefix": "grabValueFrom",
 		"body": [
-			"$$I->grabValueFrom('${1:nameOrCssOrXPath}');${0:}"
+			"grabValueFrom('${1:nameOrCssOrXPath}');${0:}"
 		],
 		"description": "Codeception $I->grabValueFrom"
 	},
 	"grabValueFromMemcached": {
 		"prefix": "grabValueFromMemcached",
 		"body": [
-			"$$I->grabValueFromMemcached('${1:key}');${0:}"
+			"grabValueFromMemcached('${1:key}');${0:}"
 		],
 		"description": "Codeception $I->grabValueFromMemcached"
 	},
 	"haveFacebookTestUserAccount": {
 		"prefix": "haveFacebookTestUserAccount",
 		"body": [
-			"$$I->haveFacebookTestUserAccount();${0:}"
+			"haveFacebookTestUserAccount();${0:}"
 		],
 		"description": "Codeception $I->haveFacebookTestUserAccount"
 	},
 	"haveFakeRepository": {
 		"prefix": "haveFakeRepository",
 		"body": [
-			"$$I->haveFakeRepository('${1:classname}', ${2:$$methods});${0:}"
+			"haveFakeRepository('${1:classname}', ${2:$$methods});${0:}"
 		],
 		"description": "Codeception $I->haveFakeRepository"
 	},
 	"haveHttpHeader": {
 		"prefix": "haveHttpHeader",
 		"body": [
-			"$$I->haveHttpHeader('${1:name}', '${2:value}');${0:}"
+			"haveHttpHeader('${1:name}', '${2:value}');${0:}"
 		],
 		"description": "Codeception $I->haveHttpHeader"
 	},
 	"haveInCollection": {
 		"prefix": "haveInCollection",
 		"body": [
-			"$$I->haveInCollection('${1:collection}', ${2:$$data});${0:}"
+			"haveInCollection('${1:collection}', ${2:$$data});${0:}"
 		],
 		"description": "Codeception $I->haveInCollection"
 	},
 	"haveInDatabase": {
 		"prefix": "haveInDatabase",
 		"body": [
-			"$$I->haveInDatabase('${1:table}', ${2:$$data});${0:}"
+			"haveInDatabase('${1:table}', ${2:$$data});${0:}"
 		],
 		"description": "Codeception $I->haveInDatabase"
 	},
 	"haveInRepository": {
 		"prefix": "haveInRepository",
 		"body": [
-			"$$I->haveInRepository();${0:}"
+			"haveInRepository();${0:}"
 		],
 		"description": "Codeception $I->haveInRepository"
 	},
 	"haveRecord": {
 		"prefix": "haveRecord",
 		"body": [
-			"$$I->haveRecord('${1:model}', ${2:$$attributes});${0:}"
+			"haveRecord('${1:model}', ${2:$$attributes});${0:}"
 		],
 		"description": "Codeception $I->haveRecord"
 	},
 	"haveTestUserLoggedInOnFacebook": {
 		"prefix": "haveTestUserLoggedInOnFacebook",
 		"body": [
-			"$$I->haveTestUserLoggedInOnFacebook();${0:}"
+			"haveTestUserLoggedInOnFacebook();${0:}"
 		],
 		"description": "Codeception $I->haveTestUserLoggedInOnFacebook"
 	},
 	"headRequest": {
 		"prefix": "headRequest",
 		"body": [
-			"$$I->headRequest('${1:url}');${0:}"
+			"headRequest('${1:url}');${0:}"
 		],
 		"description": "Codeception $I->headRequest"
 	},
 	"makeAResponseDump": {
 		"prefix": "makeAResponseDump",
 		"body": [
-			"$$I->makeAResponseDump('${1:name}');${0:}"
+			"makeAResponseDump('${1:name}');${0:}"
 		],
 		"description": "Codeception $I->makeAResponseDump"
 	},
 	"makeAScreentshot": {
 		"prefix": "makeAScreentshot",
 		"body": [
-			"$$I->makeAScreentshot('${1:name}');${0:}"
+			"makeAScreentshot('${1:name}');${0:}"
 		],
 		"description": "Codeception $I->makeAScreentshot"
 	},
 	"makeScreenshot": {
 		"prefix": "makeScreenshot",
 		"body": [
-			"$$I->makeScreenshot('${1:name}');${0:}"
+			"makeScreenshot('${1:name}');${0:}"
 		],
 		"description": "Codeception $I->makeScreenshot"
 	},
 	"maximizeWindow": {
 		"prefix": "maximizeWindow",
 		"body": [
-			"$$I->maximizeWindow();${0:}"
+			"maximizeWindow();${0:}"
 		],
 		"description": "Codeception $I->maximizeWindow"
 	},
 	"moveBack": {
 		"prefix": "moveBack",
 		"body": [
-			"$$I->moveBack();${0:}"
+			"moveBack();${0:}"
 		],
 		"description": "Codeception $I->moveBack"
 	},
 	"moveForward": {
 		"prefix": "moveForward",
 		"body": [
-			"$$I->moveForward();${0:}"
+			"moveForward();${0:}"
 		],
 		"description": "Codeception $I->moveForward"
 	},
 	"moveMouseOver": {
 		"prefix": "moveMouseOver",
 		"body": [
-			"$$I->moveMouseOver('${1:selector}', '${2:offsetX}', '${3:offsetY}');${0:}"
+			"moveMouseOver('${1:selector}', '${2:offsetX}', '${3:offsetY}');${0:}"
 		],
 		"description": "Codeception $I->moveMouseOver"
 	},
 	"openFile": {
 		"prefix": "openFile",
 		"body": [
-			"$$I->openFile('${1:filename}');${0:}"
+			"openFile('${1:filename}');${0:}"
 		],
 		"description": "Codeception $I->openFile"
 	},
 	"pauseExecution": {
 		"prefix": "pauseExecution",
 		"body": [
-			"$$I->pauseExecution();${0:}"
+			"pauseExecution();${0:}"
 		],
 		"description": "Codeception $I->pauseExecution"
 	},
 	"persistEntity": {
 		"prefix": "persistEntity",
 		"body": [
-			"$$I->persistEntity(${1:$$user}, ${2:$$values});${0:}"
+			"persistEntity(${1:$$user}, ${2:$$values});${0:}"
 		],
 		"description": "Codeception $I->persistEntity"
 	},
 	"pushToExchange": {
 		"prefix": "pushToExchange",
 		"body": [
-			"$$I->pushToExchange('${1:exchange}', '${2:message}');${0:}"
+			"pushToExchange('${1:exchange}', '${2:message}');${0:}"
 		],
 		"description": "Codeception $I->pushToExchange"
 	},
 	"pushToQueue": {
 		"prefix": "pushToQueue",
 		"body": [
-			"$$I->pushToQueue('${1:queue}', '${2:message}');${0:}"
+			"pushToQueue('${1:queue}', '${2:message}');${0:}"
 		],
 		"description": "Codeception $I->pushToQueue"
 	},
 	"pressKey": {
 		"prefix": "pressKey",
 		"body": [
-			"$$I->pressKey('${1:selector}', ${2:$$char1}${3:, ${4:$$char2}});${0:}"
+			"pressKey('${1:selector}', ${2:$$char1}${3:, ${4:$$char2}});${0:}"
 		],
 		"description": "Codeception $I->pressKey"
 	},
 	"pressKeyDown": {
 		"prefix": "pressKeyDown",
 		"body": [
-			"$$I->pressKeyDown('${1:selector}', '${2:char}'${3:, '${4:ctrl|alt|shift|meta}'});${0:}"
+			"pressKeyDown('${1:selector}', '${2:char}'${3:, '${4:ctrl|alt|shift|meta}'});${0:}"
 		],
 		"description": "Codeception $I->pressKeyDown"
 	},
 	"pressKeyUp": {
 		"prefix": "pressKeyUp",
 		"body": [
-			"$$I->pressKeyUp('${1:selector}', '${2:char}'${3:, '${4:ctrl|alt|shift|meta}'});${0:}"
+			"pressKeyUp('${1:selector}', '${2:char}'${3:, '${4:ctrl|alt|shift|meta}'});${0:}"
 		],
 		"description": "Codeception $I->pressKeyUp"
 	},
 	"reloadPage": {
 		"prefix": "reloadPage",
 		"body": [
-			"$$I->reloadPage();${0:}"
+			"reloadPage();${0:}"
 		],
 		"description": "Codeception $I->reloadPage"
 	},
 	"resetCookie": {
 		"prefix": "resetCookie",
 		"body": [
-			"$$I->resetCookie('${1:cookie}');${0:}"
+			"resetCookie('${1:cookie}');${0:}"
 		],
 		"description": "Codeception $I->resetCookie"
 	},
 	"resizeWindow": {
 		"prefix": "resizeWindow",
 		"body": [
-			"$$I->resizeWindow(${1:800}, ${2:600});${0:}"
+			"resizeWindow(${1:800}, ${2:600});${0:}"
 		],
 		"description": "Codeception $I->resizeWindow"
 	},
 	"runShellCommand": {
 		"prefix": "runShellCommand",
 		"body": [
-			"$$I->runShellCommand('${1:command}');${0:}"
+			"runShellCommand('${1:command}');${0:}"
 		],
 		"description": "Codeception $I->runShellCommand"
 	},
 	"see": {
 		"prefix": "see",
 		"body": [
-			"$$I->see('${1:text}'${2:, '${3:selector}'});${0:}"
+			"see('${1:text}'${2:, '${3:selector}'});${0:}"
 		],
 		"description": "Codeception $I->see"
 	},
 	"seeCheckboxIsChecked": {
 		"prefix": "seeCheckboxIsChecked",
 		"body": [
-			"$$I->seeCheckboxIsChecked('${1:selector}');${0:}"
+			"seeCheckboxIsChecked('${1:selector}');${0:}"
 		],
 		"description": "Codeception $I->seeCheckboxIsChecked"
 	},
 	"seeCookie": {
 		"prefix": "seeCookie",
 		"body": [
-			"$$I->seeCookie('${1:cookie}');${0:}"
+			"seeCookie('${1:cookie}');${0:}"
 		],
 		"description": "Codeception $I->seeCookie"
 	},
 	"seeCurrentUrlEquals": {
 		"prefix": "seeCurrentUrlEquals",
 		"body": [
-			"$$I->seeCurrentUrlEquals('${1:uri}');${0:}"
+			"seeCurrentUrlEquals('${1:uri}');${0:}"
 		],
 		"description": "Codeception $I->seeCurrentUrlEquals"
 	},
 	"seeCurrentUrlMatches": {
 		"prefix": "seeCurrentUrlMatches",
 		"body": [
-			"$$I->seeCurrentUrlMatches('${1:regex}');${0:}"
+			"seeCurrentUrlMatches('${1:regex}');${0:}"
 		],
 		"description": "Codeception $I->seeCurrentUrlMatches"
 	},
 	"seeElement": {
 		"prefix": "seeElement",
 		"body": [
-			"$$I->seeElement('${1:selector}');${0:}"
+			"seeElement('${1:selector}');${0:}"
 		],
 		"description": "Codeception $I->seeElement"
 	},
 	"seeElementInDOM": {
 		"prefix": "seeElementInDOM",
 		"body": [
-			"$$I->seeElementInDOM('${1:selector}');${0:}"
+			"seeElementInDOM('${1:selector}');${0:}"
 		],
 		"description": "Codeception $I->seeElementInDOM"
 	},
 	"seeEmailReceived": {
 		"prefix": "seeEmailReceived",
 		"body": [
-			"$$I->seeEmailReceived();${0:}"
+			"seeEmailReceived();${0:}"
 		],
 		"description": "Codeception $I->seeEmailReceived"
 	},
 	"seeEmailsSent": {
 		"prefix": "seeEmailsSent",
 		"body": [
-			"$$I->seeEmailsSent();${0:}"
+			"seeEmailsSent();${0:}"
 		],
 		"description": "Codeception $I->seeEmailsSent"
 	},
 	"seeErrorInField": {
 		"prefix": "seeErrorInField",
 		"body": [
-			"$$I->seeErrorInField('${1:field}');${0:}"
+			"seeErrorInField('${1:field}');${0:}"
 		],
 		"description": "Codeception $I->seeErrorInField"
 	},
 	"seeErrorsInForm": {
 		"prefix": "seeErrorsInForm",
 		"body": [
-			"$$I->seeErrorsInForm();${0:}"
+			"seeErrorsInForm();${0:}"
 		],
 		"description": "Codeception $I->seeErrorsInForm"
 	},
 	"seeFileContentsEqual": {
 		"prefix": "seeFileContentsEqual",
 		"body": [
-			"$$I->seeFileContentsEqual('${1:text}');${0:}"
+			"seeFileContentsEqual('${1:text}');${0:}"
 		],
 		"description": "Codeception $I->seeFileContentsEqual"
 	},
 	"seeFileFound": {
 		"prefix": "seeFileFound",
 		"body": [
-			"$$I->seeFileFound('${1:filename}', '${2:path}');${0:}"
+			"seeFileFound('${1:filename}', '${2:path}');${0:}"
 		],
 		"description": "Codeception $I->seeFileFound"
 	},
 	"seeFormIsValid": {
 		"prefix": "seeFormIsValid",
 		"body": [
-			"$$I->seeFormIsValid();${0:}"
+			"seeFormIsValid();${0:}"
 		],
 		"description": "Codeception $I->seeFormIsValid"
 	},
 	"seeInCollection": {
 		"prefix": "seeInCollection",
 		"body": [
-			"$$I->seeInCollection('${1:collection}', ${2:$$criteria});${0:}"
+			"seeInCollection('${1:collection}', ${2:$$criteria});${0:}"
 		],
 		"description": "Codeception $I->seeInCollection"
 	},
 	"seeInCurrentUrl": {
 		"prefix": "seeInCurrentUrl",
 		"body": [
-			"$$I->seeInCurrentUrl('${1:uri}');${0:}"
+			"seeInCurrentUrl('${1:uri}');${0:}"
 		],
 		"description": "Codeception $I->seeInCurrentUrl"
 	},
 	"seeInDatabase": {
 		"prefix": "seeInDatabase",
 		"body": [
-			"$$I->seeInDatabase('${1:table}', ${2:$$criteria});${0:}"
+			"seeInDatabase('${1:table}', ${2:$$criteria});${0:}"
 		],
 		"description": "Codeception $I->seeInDatabase"
 	},
 	"seeInField": {
 		"prefix": "seeInField",
 		"body": [
-			"$$I->seeInField('${1:selector}', '${2:value}');${0:}"
+			"seeInField('${1:selector}', '${2:value}');${0:}"
 		],
 		"description": "Codeception $I->seeInField"
 	},
 	"seeInMemcached": {
 		"prefix": "seeInMemcached",
 		"body": [
-			"$$I->seeInMemcached('${1:key}', '${2:value}');${0:}"
+			"seeInMemcached('${1:key}', '${2:value}');${0:}"
 		],
 		"description": "Codeception $I->seeInMemcached"
 	},
 	"seeInPopup": {
 		"prefix": "seeInPopup",
 		"body": [
-			"$$I->seeInPopup('${1:text}');${0:}"
+			"seeInPopup('${1:text}');${0:}"
 		],
 		"description": "Codeception $I->seeInPopup"
 	},
 	"seeInRepository": {
 		"prefix": "seeInRepository",
 		"body": [
-			"$$I->seeInRepository('${1:entity}', ${2:$$params});${0:}"
+			"seeInRepository('${1:entity}', ${2:$$params});${0:}"
 		],
 		"description": "Codeception $I->seeInRepository"
 	},
 	"seeInSession": {
 		"prefix": "seeInSession",
 		"body": [
-			"$$I->seeInSession('${1:key}', '${2:value}');${0:}"
+			"seeInSession('${1:key}', '${2:value}');${0:}"
 		],
 		"description": "Codeception $I->seeInSession"
 	},
 	"seeInShellOutput": {
 		"prefix": "seeInShellOutput",
 		"body": [
-			"$$I->seeInShellOutput('${1:text}');${0:}"
+			"seeInShellOutput('${1:text}');${0:}"
 		],
 		"description": "Codeception $I->seeInShellOutput"
 	},
 	"seeInTable": {
 		"prefix": "seeInTable",
 		"body": [
-			"$$I->seeInTable('${1:model}', ${2:$$values});${0:}"
+			"seeInTable('${1:model}', ${2:$$values});${0:}"
 		],
 		"description": "Codeception $I->seeInTable"
 	},
 	"seeInTitle": {
 		"prefix": "seeInTitle",
 		"body": [
-			"$$I->seeInTitle('${1:text}');${0:}"
+			"seeInTitle('${1:text}');${0:}"
 		],
 		"description": "Codeception $I->seeInTitle"
 	},
 	"seeInThisFile": {
 		"prefix": "seeInThisFile",
 		"body": [
-			"$$I->seeInThisFile('${1:text}');${0:}"
+			"seeInThisFile('${1:text}');${0:}"
 		],
 		"description": "Codeception $I->seeInThisFile"
 	},
 	"seeLink": {
 		"prefix": "seeLink",
 		"body": [
-			"$$I->seeLink('${1:text}'${2:, '${3:url}'});${0:}"
+			"seeLink('${1:text}'${2:, '${3:url}'});${0:}"
 		],
 		"description": "Codeception $I->seeLink"
 	},
 	"seeMessageInQueueContainsText": {
 		"prefix": "seeMessageInQueueContainsText",
 		"body": [
-			"$$I->seeMessageInQueueContainsText('${1:queue}', '${2:text}');${0:}"
+			"seeMessageInQueueContainsText('${1:queue}', '${2:text}');${0:}"
 		],
 		"description": "Codeception $I->seeMessageInQueueContainsText"
 	},
 	"seeOptionIsSelected": {
 		"prefix": "seeOptionIsSelected",
 		"body": [
-			"$$I->seeOptionIsSelected('${1:selector}', '${2:optionText}');${0:}"
+			"seeOptionIsSelected('${1:selector}', '${2:optionText}');${0:}"
 		],
 		"description": "Codeception $I->seeOptionIsSelected"
 	},
 	"seePageNotFound": {
 		"prefix": "seePageNotFound",
 		"body": [
-			"$$I->seePageNotFound();${0:}"
+			"seePageNotFound();${0:}"
 		],
 		"description": "Codeception $I->seePageNotFound"
 	},
 	"seePostOnFacebookWithAttachedPlace": {
 		"prefix": "seePostOnFacebookWithAttachedPlace",
 		"body": [
-			"$$I->seePostOnFacebookWithAttachedPlace('${1:placeId}');${0:}"
+			"seePostOnFacebookWithAttachedPlace('${1:placeId}');${0:}"
 		],
 		"description": "Codeception $I->seePostOnFacebookWithAttachedPlace"
 	},
 	"seeRecord": {
 		"prefix": "seeRecord",
 		"body": [
-			"$$I->seeRecord('${1:model}', ${2:$$attributes});${0:}"
+			"seeRecord('${1:model}', ${2:$$attributes});${0:}"
 		],
 		"description": "Codeception $I->seeRecord"
 	},
 	"seeResponseCodeIs": {
 		"prefix": "seeResponseCodeIs",
 		"body": [
-			"$$I->seeResponseCodeIs('${1:code}');${0:}"
+			"seeResponseCodeIs('${1:code}');${0:}"
 		],
 		"description": "Codeception $I->seeResponseCodeIs"
 	},
 	"seeResponseIsXMLRPC": {
 		"prefix": "seeResponseIsXMLRPC",
 		"body": [
-			"$$I->seeResponseIsXMLRPC();${0:}"
+			"seeResponseIsXMLRPC();${0:}"
 		],
 		"description": "Codeception $I->seeResponseIsXMLRPC"
 	},
 	"seeSessionErrorMessage": {
 		"prefix": "seeSessionErrorMessage",
 		"body": [
-			"$$I->seeSessionErrorMessage(${1:$$bindings});${0:}"
+			"seeSessionErrorMessage(${1:$$bindings});${0:}"
 		],
 		"description": "Codeception $I->seeSessionErrorMessage"
 	},
 	"seeSessionHasErrors": {
 		"prefix": "seeSessionHasErrors",
 		"body": [
-			"$$I->seeSessionHasErrors();${0:}"
+			"seeSessionHasErrors();${0:}"
 		],
 		"description": "Codeception $I->seeSessionHasErrors"
 	},
 	"seeSessionHasValues": {
 		"prefix": "seeSessionHasValues",
 		"body": [
-			"$$I->seeSessionHasValues(${1:$$bindings});${0:}"
+			"seeSessionHasValues(${1:$$bindings});${0:}"
 		],
 		"description": "Codeception $I->seeSessionHasValues"
 	},
 	"seeShellOutputMatches": {
 		"prefix": "seeShellOutputMatches",
 		"body": [
-			"$$I->seeShellOutputMatches('${1:regex}');${0:}"
+			"seeShellOutputMatches('${1:regex}');${0:}"
 		],
 		"description": "Codeception $I->seeShellOutputMatches"
 	},
 	"selectOption": {
 		"prefix": "selectOption",
 		"body": [
-			"$$I->selectOption('${1:selector}', '${2:option}');${0:}"
+			"selectOption('${1:selector}', '${2:option}');${0:}"
 		],
 		"description": "Codeception $I->selectOption"
 	},
 	"sendAjaxGetRequest": {
 		"prefix": "sendAjaxGetRequest",
 		"body": [
-			"$$I->sendAjaxGetRequest('${1:uri}', ${2:$$params});${0:}"
+			"sendAjaxGetRequest('${1:uri}', ${2:$$params});${0:}"
 		],
 		"description": "Codeception $I->sendAjaxGetRequest"
 	},
 	"sendAjaxPostRequest": {
 		"prefix": "sendAjaxPostRequest",
 		"body": [
-			"$$I->sendAjaxPostRequest('${1:uri}', ${2:$$params});${0:}"
+			"sendAjaxPostRequest('${1:uri}', ${2:$$params});${0:}"
 		],
 		"description": "Codeception $I->sendAjaxPostRequest"
 	},
 	"sendAjaxRequest": {
 		"prefix": "sendAjaxRequest",
 		"body": [
-			"$$I->sendAjaxRequest('${1:method}', '${2:uri}', ${3:$$params});${0:}"
+			"sendAjaxRequest('${1:method}', '${2:uri}', ${3:$$params});${0:}"
 		],
 		"description": "Codeception $I->sendAjaxRequest"
 	},
 	"sendXMLRPCMethodCall": {
 		"prefix": "sendXMLRPCMethodCall",
 		"body": [
-			"$$I->sendXMLRPCMethodCall('${1:methodName}', [${2:parameters}]);${0:}"
+			"sendXMLRPCMethodCall('${1:methodName}', [${2:parameters}]);${0:}"
 		],
 		"description": "Codeception $I->sendXMLRPCMethodCall"
 	},
 	"setCookie": {
 		"prefix": "setCookie",
 		"body": [
-			"$$I->setCookie('${1:cookie}', '${2:value}');${0:}"
+			"setCookie('${1:cookie}', '${2:value}');${0:}"
 		],
 		"description": "Codeception $I->setCookie"
 	},
 	"signIn": {
 		"prefix": "signIn",
 		"body": [
-			"$$I->signIn('${1:username}', '${2:password}');${0:}"
+			"signIn('${1:username}', '${2:password}');${0:}"
 		],
 		"description": "Codeception $I->signIn"
 	},
 	"signOut": {
 		"prefix": "signOut",
 		"body": [
-			"$$I->signOut();${0:}"
+			"signOut();${0:}"
 		],
 		"description": "Codeception $I->signOut"
 	},
@@ -1465,104 +1465,104 @@
 	"submitForm": {
 		"prefix": "submitForm",
 		"body": [
-			"$$I->submitForm(${1:selector}, array(${2:params}));${0:}"
+			"submitForm(${1:selector}, array(${2:params}));${0:}"
 		],
 		"description": "Codeception $I->submitForm"
 	},
 	"switchToIFrame": {
 		"prefix": "switchToIFrame",
 		"body": [
-			"$$I->switchToIFrame('${1:name}');${0:}"
+			"switchToIFrame('${1:name}');${0:}"
 		],
 		"description": "Codeception $I->switchToIFrame"
 	},
 	"switchToWindow": {
 		"prefix": "switchToWindow",
 		"body": [
-			"$$I->switchToWindow('${1:name}');${0:}"
+			"switchToWindow('${1:name}');${0:}"
 		],
 		"description": "Codeception $I->switchToWindow"
 	},
 	"typeInPopup": {
 		"prefix": "typeInPopup",
 		"body": [
-			"$$I->typeInPopup(${1:$$keys});${0:}"
+			"typeInPopup(${1:$$keys});${0:}"
 		],
 		"description": "Codeception $I->typeInPopup"
 	},
 	"uncheckOption": {
 		"prefix": "uncheckOption",
 		"body": [
-			"$$I->uncheckOption('${1:selector}');${0:}"
+			"uncheckOption('${1:selector}');${0:}"
 		],
 		"description": "Codeception $I->uncheckOption"
 	},
 	"unselectOption": {
 		"prefix": "unselectOption",
 		"body": [
-			"$$I->unselectOption('${1:selector}');${0:}"
+			"unselectOption('${1:selector}');${0:}"
 		],
 		"description": "Codeception $I->unselectOption"
 	},
 	"amInsideAngularApp": {
 		"prefix": "amInsideAngularApp",
 		"body": [
-			"$$I->amInsideAngularApp();${0:}"
+			"amInsideAngularApp();${0:}"
 		],
 		"description": "Codeception $I->amInsideAngularApp"
 	},
 	"amOutsideAngularApp": {
 		"prefix": "amOutsideAngularApp",
 		"body": [
-			"$$I->amOutsideAngularApp();${0:}"
+			"amOutsideAngularApp();${0:}"
 		],
 		"description": "Codeception $I->amOutsideAngularApp"
 	}"wait": {
 		"prefix": "wait",
 		"body": [
-			"$$I->wait(${1:60});${0:}"
+			"wait(${1:60});${0:}"
 		],
 		"description": "Codeception $I->wait"
 	},
 	"waitForElement": {
 		"prefix": "waitForElement",
 		"body": [
-			"$$I->waitForElement('${1:selector}', ${2:60});${0:}"
+			"waitForElement('${1:selector}', ${2:60});${0:}"
 		],
 		"description": "Codeception $I->waitForElement"
 	},
 	"waitForElementChange": {
 		"prefix": "waitForElementChange",
 		"body": [
-			"$$I->waitForElementChange('${1:selector}', ${2:callback}, ${3:60});${0:}"
+			"waitForElementChange('${1:selector}', ${2:callback}, ${3:60});${0:}"
 		],
 		"description": "Codeception $I->waitForElementChange"
 	},
 	"waitForElementNotVisible": {
 		"prefix": "waitForElementNotVisible",
 		"body": [
-			"$$I->waitForElementNotVisible('${1:selector}', ${2:60});${0:}"
+			"waitForElementNotVisible('${1:selector}', ${2:60});${0:}"
 		],
 		"description": "Codeception $I->waitForElementNotVisible"
 	},
 	"waitForElementVisible": {
 		"prefix": "waitForElementVisible",
 		"body": [
-			"$$I->waitForElementVisible('${1:selector}', ${2:60});${0:}"
+			"waitForElementVisible('${1:selector}', ${2:60});${0:}"
 		],
 		"description": "Codeception $I->waitForElementVisible"
 	},
 	"waitForJS": {
 		"prefix": "waitForJS",
 		"body": [
-			"$$I->waitForJS('${1:script}', ${2:60});${0:}"
+			"waitForJS('${1:script}', ${2:60});${0:}"
 		],
 		"description": "Codeception $I->waitForJS"
 	},
 	"waitForText": {
 		"prefix": "waitForText",
 		"body": [
-			"$$I->waitForText('${1:text}', ${2:60}${3:, '${4:selector}'});${0:}"
+			"waitForText('${1:text}', ${2:60}${3:, '${4:selector}'});${0:}"
 		],
 		"description": "Codeception $I->waitForText"
 	}
